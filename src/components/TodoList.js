@@ -1,19 +1,20 @@
-import {List} from '@material-ui/core'
+/* eslint-disable react/prop-types,react/jsx-filename-extension */
+import { List } from '@material-ui/core';
 
-import React from "react";
-import Todo from "./Todo";
+import React from 'react';
+import Todo from './Todo';
 
-const TodoList = ({todos, toggleComplete, removeTodo}) => {
-    return (
-        <List>
-            {todos.map(todo => (
-                <Todo key={todo && todo.id}
-                      todo={todo}
-                      toggleComplete={toggleComplete}
-                      removeTodo={removeTodo}/>
-            ))}
-        </List>
-    )
-}
+const TodoList = ({ todos, toggleComplete, removeTodo }) => (
+  <List>
+    {todos.map((todo) => (
+      <Todo
+        key={todo && todo.id}
+        todo={todo}
+        toggleComplete={toggleComplete}
+        removeTodo={removeTodo}
+      />
+    ))}
+  </List>
+);
 
 export default TodoList;
