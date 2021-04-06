@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types,react/jsx-filename-extension */
 import { List } from '@material-ui/core';
 
 import React from 'react';

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types,react/jsx-filename-extension */
 import { Button, TextField } from '@material-ui/core';
 import React, { useState } from 'react';
 import { v4 as uuid } from 'uuid';

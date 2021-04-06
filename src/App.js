@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-filename-extension */
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import Typography from '@material-ui/core/Typography';
