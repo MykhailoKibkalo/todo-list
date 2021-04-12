@@ -3,8 +3,7 @@
 # In this project i was used:
 
 - React;
-- setState;
-- useEffect;
+- Hooks (setState, useEffect);
 - local_storage;
 - Material-UI.
 
