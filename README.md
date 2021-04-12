@@ -1,6 +1,6 @@
 # To do list 
 
-# This project was used:
+# In this project i was used:
 
 - React;
 - setState;
