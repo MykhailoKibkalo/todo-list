@@ -1,6 +1,6 @@
 # To do list 
 
-# In this project i was used:
+# In this project I was used:
 
 - React;
 - Hooks (setState, useEffect);
